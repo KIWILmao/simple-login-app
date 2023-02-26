@@ -1,0 +1,72 @@
+.outersignup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcontainer{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height:450px;
+    background-color: rgb(151, 227, 255);
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto 0px;
+    width: 300px;
+    height: 400px;
+}
+
+label{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+input{
+    height: 40px;
+    width: auto;
+    border: none;
+    padding:0px 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.signupbtn{
+    /* margin-top: 20px;     */
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: inter;
+    color: black;
+    height: 45px;
+    background-color: rgb(225, 255, 133);
+}
+
+.signupbtn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.errmsg{
+    display: flex;
+    color: rgb(255, 130, 130);     
+    max-width: 250px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-self: center;
+}
+
+h4{
+    margin: 0;
+}
+
+a{
+    color: blueviolet;
+}
+

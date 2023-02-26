@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.logout{
+    /* margin-top: 20px;     */
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: inter;
+    color: black;
+    height: 45px;
+    width: 120px;
+    background-color: rgb(225, 255, 133);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.errmsg{
+    display: flex;
+    color: rgb(255, 130, 130);     
+    max-width: 250px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-self: center;
+}
